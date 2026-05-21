@@ -1,0 +1,19 @@
+# Enforce normalized LF line endings in the repository on all text files.
+# This prevents Git from converting LF to CRLF on checkout in Windows.
+* text=auto eol=lf
+
+# Explicitly treat these common text file types as text.
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.mjs text eol=lf
+*.sql text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
